@@ -4,41 +4,15 @@
 body{
   background: rgb(1, 1, 53);
 }
-.fa-facebook-f{
-  color: #1877f2;
-}
-.fa-twitter{
-  color: #1da1f2;
-}
-.fa-whatsapp{
-  color: #25d366;
-}
-.fa-linkedin-in{
-  color:#0077b5 ;
-}
-.fa-google-plus-g{
-  color:#dd4b39 ;
-}
-.fa-instagram{
-  color: #e1306c;
-}
-.fa-facebook-f,
-.fa-twitter,
-.fa-whatsapp,
-.fa-linkedin-in,
-.fa-google-plus-g,
-.fa-instagram{
-  cursor: pointer;
+
+.fa-2x{
   transition: .3s ease-in-out;
+  color: #ddd;
+  &:hover{
+    transform: scale(1.1) rotate(-7deg);
+    color: #555;
+  }
   
-}
-.fa-facebook-f:hover,
-.fa-twitter:hover,
-.fa-whatsapp:hover,
-.fa-linkedin-in:hover,
-.fa-google-plus-g:hover,
-.fa-instagram:hover{
-  transform: scale(1.1) rotate(-7deg);
 }
 
 .header{
