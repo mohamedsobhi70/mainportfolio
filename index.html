@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,9 @@
     <meta name="description" content="the Description Of The Website Will Be Written Here">
     <title>Portfolio </title>
 </head>
+
 <body>
+    <!-- start header -->
     <header class="header">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
@@ -36,10 +39,6 @@
                             <li class="nav-item">
                                 <a class="nav-link  " href="#portfolio">portfolio</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link  " href="#contact">contact us</a>
-                            </li>
-
                         </ul>
                     </div>
                 </div>
@@ -66,11 +65,13 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-fluid"  src="images/banner-min.webp" alt="banner image">
+                    <img class="img-fluid" src="images/banner-min.webp" alt="banner image">
                 </div>
             </div>
         </div>
     </header>
+    <!-- end header  -->
+    <!-- start main content -->
     <main>
         <section class="about py-5" id="about">
             <div class="container">
@@ -78,7 +79,7 @@
                     <div class="col-md-6 d-none d-md-block">
                         <img class="img-fluid" width="399px" src="images/about-min.webp" alt="About image">
                     </div>
-                    <div class="col-md-6 text-capitalize text-white">
+                    <div class="col-md-6 text-white">
                         <h2 class="fw-bold text-warning">
                             Hello ,I AM Mohamed Sobhi
                         </h2>
@@ -88,21 +89,36 @@
                             all screens</p>
                         <div class="information ">
                             <div class="info-item py-2">
-                                <span class="info-title fw-bold d-inline-block w-25">name</span>: mohamed sobhi mohamed
-                                omar
+                                <span class="info-title fw-bold d-inline-block w-25 text-capitalize">name</span>:
+                                Mohamed Sobhi Mohamed
+                                Omar
                             </div>
                             <div class="info-item py-2">
-                                <span class="info-title fw-bold d-inline-block w-25">age</span>: 29 years
+                                <span class="info-title fw-bold d-inline-block w-25 text-capitalize">birth date</span>:
+                                1 / 10 / 1992
                             </div>
                             <div class="info-item py-2">
-                                <span class="info-title fw-bold d-inline-block w-25">address</span>: Mansoura Egypt
+                                <span class="info-title fw-bold d-inline-block w-25 text-capitalize">address</span>:
+                                Mansoura - Egypt
                             </div>
                             <div class="info-item py-2">
-                                <span class="info-title fw-bold d-inline-block w-25">phone </span>: 01066704659 /
+                                <span class="info-title fw-bold d-inline-block w-25 text-capitalize">phone </span>:
+                                01066704659 /
                                 01550417652
                             </div>
                             <div class="info-item py-2">
-                                <span class="info-title fw-bold d-inline-block w-25">email</span>: sobhi7070@gmail.com
+                                <span class="info-title fw-bold d-inline-block w-25 text-capitalize ">email</span>:
+                                sobhi7070@gmail.com
+                            </div>
+                            <div class="info-item py-2">
+                                <span class="info-title fw-bold d-inline-block w-25 text-capitalize ">github</span>:
+                                <a href=" https://github.com/mohamedsobhi70 " class="text-white-50">
+                                    https://github.com/mohamedsobhi70</a>
+                            </div>
+                            <div class="info-item py-2">
+                                <span class="info-title fw-bold d-inline-block w-25 text-capitalize ">Military
+                                    service</span>:
+                                done(apr2018)
                             </div>
 
                         </div>
@@ -256,6 +272,32 @@
                             <button class="btn btn-outline-warning">Show More</button>
                         </div>
                     </div>
+                    <div class="col-md-4">
+                        <div class="service-item rounded-3 border mb-3 p-3 text-center">
+                            <i class="fas fa-images fa-5x text-warning"></i>
+                            <h4 class="my-4">PSD To HTML</h4>
+                            <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consequuntur
+                                doloribus dolore
+                                voluptatum officiis et exercitationem molestiae quasi vel enim quaerat? Commodi
+                                explicabo
+                                repellendus perspiciatis delectus asperiores voluptatum deleniti dolorem magni.</p>
+                            <button class="btn btn-outline-warning">Show More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item rounded-3 border mb-3 p-3 text-center">
+                            <i class="fab fa-figma fa-5x text-warning"></i>
+                            <h4 class="my-4">Figma To React js</h4>
+                            <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consequuntur
+                                doloribus dolore
+                                voluptatum officiis et exercitationem molestiae quasi vel enim quaerat? Commodi
+                                explicabo
+                                repellendus perspiciatis delectus asperiores voluptatum deleniti dolorem magni.</p>
+                            <button class="btn btn-outline-warning">Show More</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -265,11 +307,10 @@
                 <div class="row">
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid"  src="images/Ecolife-min.webp" 
-                                alt="portfolio item">
+                            <img class="img-fluid" src="images/Ecolife-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
-                                <p class="fw-bold text-capitalize">landing page , i made this page on upwork</p>
+                                <p class="fw-bold text-capitalize">landing page , i made this page as a test</p>
                                 <a href="https://mohamedsobhi70.github.io/Ecolife-ecommerce/"
                                     class="btn btn-outline-warning">Visit Project</a>
                             </div>
@@ -277,7 +318,18 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid"  src="images/Elctro-min.webp"  alt="portfolio item">
+                            <img class="img-fluid" src="images/greeny.png" alt="portfolio item">
+                            <div
+                                class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
+                                <p class="fw-bold text-capitalize">greeny ecommerce template</p>
+                                <a href="https://mohamedsobhi70.github.io/greeny" class="btn btn-outline-warning">Visit
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="portfolio-item rounded-3 position-relative">
+                            <img class="img-fluid" src="images/Elctro-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
                                 <p class="fw-bold text-capitalize">under constucting landing page , i made it on a
@@ -290,11 +342,10 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid" src="images/kasha-min.webp"  alt="portfolio item">
+                            <img class="img-fluid" src="images/kasha-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
-                                <p class="fw-bold text-capitalize">under constucting landing page , i made it on a
-                                    contrast
+                                <p class="fw-bold text-capitalize">i made it on a contrast
                                     in freelancer</p>
                                 <a href="https://mohamedsobhi70.github.io/kasha/" class="btn btn-outline-warning">Visit
                                     Project</a>
@@ -303,12 +354,11 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid" src="images/yallakora-min.webp"  alt="portfolio item">
+                            <img class="img-fluid" src="images/yallakora-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
                                 <p class="fw-bold text-capitalize">under constucting landing page , i made it on a
-                                    contrast
-                                    in freelancer</p>
+                                    contrast in freelancer</p>
                                 <a href="https://mohamedsobhi70.github.io/yallakoracopy/"
                                     class="btn btn-outline-warning">Visit Project</a>
                             </div>
@@ -316,10 +366,10 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid" src="images/portfolioamazon-min.webp"  alt="portfolio item">
+                            <img class="img-fluid" src="images/portfolioamazon-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center ">
-                                <p class="fw-bold text-capitalize">amazon clone with more featuries , practice website
+                                <p class="fw-bold text-capitalize">amazon clone, practice website
                                 </p>
                                 <a href="https://mohamedsobhi70.github.io/amazon/" class="btn btn-outline-warning">Visit
                                     Project</a>
@@ -328,7 +378,7 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid" src="images/portfoliomaharaja-min.webp"  alt="portfolio item">
+                            <img class="img-fluid" src="images/portfoliomaharaja-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
                                 <p class="fw-bold text-capitalize">maharaja agrasen is a hindi univerisity , i made this
@@ -340,7 +390,7 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid" src="images/portfolioecommerce-min.webp"  alt="portfolio item">
+                            <img class="img-fluid" src="images/portfolioecommerce-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
                                 <p class="fw-bold text-capitalize">ecommerce website on themeforest i made a clone from
@@ -352,7 +402,7 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid" src="images/portfoliofirstsouq-min.webp"  alt="portfolio item">
+                            <img class="img-fluid" src="images/portfoliofirstsouq-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
                                 <p class="fw-bold text-capitalize">ecommerce website called souqfirst, i made this
@@ -364,7 +414,7 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid" src="images/portfoliojumia-min.webp"  alt="portfolio item">
+                            <img class="img-fluid" src="images/portfoliojumia-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
                                 <p class="fw-bold text-capitalize">jumia clone with some edites , practice website</p>
@@ -375,8 +425,7 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="portfolio-item rounded-3 position-relative">
-                            <img class="img-fluid" src="images/portfolioamazonproduct-min.webp" 
-                                alt="portfolio item">
+                            <img class="img-fluid" src="images/portfolioamazonproduct-min.webp" alt="portfolio item">
                             <div
                                 class="overlay position-absolute w-100 h-100  rounded-3 d-flex flex-column align-items-center justify-content-center ">
                                 <p class="fw-bold text-capitalize">amazon products page , practice website</p>
@@ -389,42 +438,10 @@
 
             </div>
         </section>
-        <section class="contact py-5" id="contact">
-            <div class="container ">
-                <h2 class="text-warning fw-bold mb-3">Send Me A Message Now</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="pe-lg-5">
-                            <form class="" action="">
-                                <input type="text" class="form-control bg-secondary mb-2" placeholder=" Your Name"
-                                    name="" id="">
-                                <input type="text" class="form-control bg-secondary mb-2" placeholder="Subject" name=""
-                                    id="">
-                                <input type="email" class="form-control bg-secondary mb-2" placeholder="Your Email"
-                                    name="" id="">
-                                <textarea class="form-control bg-secondary mb-2" rows="5"
-                                    placeholder="Message Here"></textarea>
-                                <input type="submit" class="w-50 mt-3 btn btn-outline-warning" value="Send Message">
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-white">
-                        <div class="contact-info h-100 d-flex flex-column justify-content-center pb-lg-5">
-                            <div class="contact-item fw-bold py-3">
-                                <i class="fa fa-map-marker-alt fa-2x me-4 icon text-warning"></i>Mansoura - Egypt
-                            </div>
-                            <div class="contact-item fw-bold py-3">
-                                <i class="fa fa-phone-alt fa-2x me-4 icon text-warning"></i>01066704659 / 01550417652
-                            </div>
-                            <div class="contact-item fw-bold py-3">
-                                <i class="fa fa-envelope fa-2x me-4 icon text-warning "></i> sobhi7070@gmail.com
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
     </main>
+    <!-- end main content  -->
+    <!-- start footer section  -->
     <footer>
         <div class="container">
             <div class="border-top text-center text-white">
@@ -447,6 +464,8 @@
             </div>
         </div>
     </footer>
+    <!-- end footer setion  -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
